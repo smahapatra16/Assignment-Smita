@@ -323,7 +323,15 @@ button#loadMoreBtn {
   width: 2rem;
   justify-content: center;
 }
-
+.search-container input[type="text"] {
+  display: block;
+  width: calc(100% - 24px);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--black);
+  padding: 10px;
+  border: 2px solid var(--black);
+}
 
 /* Category Section */
 .section {
@@ -652,7 +660,6 @@ footer .row {
     row-gap: 3rem;
   }
 }
-
 
 
 
